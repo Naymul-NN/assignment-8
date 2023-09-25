@@ -30,23 +30,26 @@ const handleRemove = () =>{
      setNofound('no data yet');
 }
 
+const bgcolor = `${donation.card_bg}`;
+
     return (
             <div>{noFound ? <p className="text-center pt-64">{noFound}</p> : 
             <div>
                 { donation.length > 0 && <button onClick={handleRemove} className="px-5 bg-green-300 block mx-auto">Delet all donation</button>}
                 <div>
                     {
-                         <div className="grid grid-cols-2 gap-5">
+                         <div className="grid grid-cols-1 lg:grid-cols-2 gap-5">
                          {
                             isSee? donation.map(money => (
                                  <div key={money.id} >
-                                     <div className= {`items-center mt-6 flex bg-green-200`}>
+                                     <div style={{ backgroundColor: bgcolor }} className="items-center mt-6 flex ">
                                    <figure><img src={money.picture} alt="Shoes" /></figure>
                                    <div className="card-body">
-                                    <h2 className="card-title text-blue-600">{money.category}</h2>
+                                    <h2 style={{color:money.text_color }}>{money.category}</h2>
                                    <p>{money.title}</p>
+                                   <p style={{color:money.text_color}}>{money.price}</p>
                                     <div className="card-actions justify-start">
-                                    <Link to = {`/details/${money.id}`}><button className="btn "> see details</button></Link>
+                                    <Link to = {`/details/${money.id}`}><button style={{backgroundColor:money.text_color}} className=" py-2 px-1 rounded-md"> see details</button></Link>
                                      </div>
                                      </div>
                                   </div>
@@ -55,13 +58,14 @@ const handleRemove = () =>{
                              )) 
                             : donation.slice(0,4).map(money => (
                                 <div key={money.id} >
-                                    <div className= {`items-center mt-6 flex bg-green-200`}>
+                                    <div style={{backgroundColor:money.card_bg}} className= "items-center mt-6 flex ">
                                   <figure><img src={money.picture} alt="Shoes" /></figure>
                                   <div className="card-body">
-                                   <h2 className="card-title text-blue-600">{money.category}</h2>
+                                   <h2 style={{color:money.text_color }} >{money.category}</h2>
                                   <p>{money.title}</p>
+                                  <p style={{color:money.text_color}}>{money.price}</p>
                                    <div className="card-actions justify-start">
-                                   <Link to = {`/details/${money.id}`}><button className="btn "> see details</button></Link>
+                                   <Link to = {`/details/${money.id}`}><button style={{backgroundColor:money.text_color}} className=" py-2 px-1 rounded-md"> see details</button></Link>
                                     </div>
                                     </div>
                                  </div>
@@ -72,7 +76,7 @@ const handleRemove = () =>{
                      </div>
                      
                     }
-                     <button onClick={()=> setIsSee(!isSee)} className="px-5 mt-8 bg-green-300 block mx-auto">{!isSee? "see all": "see less"}</button>
+                      {donation.length > 4 &&  <button onClick={()=> setIsSee(!isSee)} className="px-5 my-8 bg-green-300 block mx-auto">{!isSee? "see all": "see less"}</button>}
                 </div>
             </div>
             

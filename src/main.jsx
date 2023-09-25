@@ -10,6 +10,7 @@ import Layout from './components/Layout';
 import Home from './components/Home';
 import Details from './components/Details';
 import Donation from './components/Donation';
+import Statistics from './components/Statistics';
 
 const router = createBrowserRouter([
   {
@@ -30,6 +31,10 @@ const router = createBrowserRouter([
         path:'/details/:id',
         element:<Details></Details>,
         loader: () => fetch('/cardData.json')
+      },
+      {
+        path:'/statistics',
+        element:<Statistics></Statistics>
       }
     ]
   },

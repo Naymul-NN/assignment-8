@@ -46,9 +46,12 @@ const Details = () => {
         <div>
             <div className="card w-[400px] mx-auto bg-base-100 shadow-xl flex">
            
-           <figure ><img src={card.details_pic} alt="Shoes" height="300px" width="400px"/></figure>
-            <div className="card-actions justify-start">
-            <button onClick={handleAddToDonation} className="btn bg-red-300 mt-[-50px]">donate {card.price}</button>
+           <div className="relative"><img src={card.details_pic} alt="Shoes" height="300px" width="400px"/>
+           <div className="absolute inset-0 mt-72 h-20 bg-black bg-opacity-50"></div>
+           </div>
+           
+            <div className="relative mt-[-50px]">
+            <button onClick={handleAddToDonation} className="py-2 rounded-xl px-1 bg-red-300 ">donate {card.price}</button>
             </div>
            
             <div className="card-body">
