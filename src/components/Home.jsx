@@ -4,7 +4,6 @@ import DataCard from "./DataCard";
 const Home = () => {
      
     const cards = useLoaderData()
-    console.log(cards);
 
     return (
         <div>
