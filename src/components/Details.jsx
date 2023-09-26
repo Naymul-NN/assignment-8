@@ -51,7 +51,7 @@ const Details = () => {
            </div>
            
             <div className="relative mt-[-50px]">
-            <button onClick={handleAddToDonation} className="py-2 rounded-xl px-1 bg-red-300 ">donate {card.price}</button>
+            <button onClick={handleAddToDonation} className="py-2 rounded-xl px-1 bg-red-400 ">donate {card.price}</button>
             </div>
            
             <div className="card-body">

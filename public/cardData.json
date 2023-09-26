@@ -7,7 +7,7 @@
     "category": "Health",
     "category_bg": "bg-green-400",
     "card_bg": "#ff444a26", 
-    "text_button_bg": "#2ecc71",
+    "text_button_bg": "#f8714733",
     "text_color":"#FF444A",
     "description": "Good health refers to a state of physical, mental, and social well-being where an individual's body functions optimally, and they are free from illness or disease. It involves maintaining a balanced lifestyle, regular exercise, a nutritious diet, and emotional well-being to lead a fulfilling and active life",
     "price": "$199.99"
@@ -21,7 +21,7 @@
       "category": "Education",
       "category_bg": "bg-blue-500",
       "card_bg": "#79c23f26",
-      "text_button_bg": "#d9534f",
+      "text_button_bg": "#79c23f33",
       "text_color":"#79C23F",
       "description": " Good education refers to the acquisition of knowledge, skills, and values that empower individuals to lead fulfilling lives, contribute to society, and pursue their aspirations. It goes beyond academics and includes personal development, critical thinking, and the ability to adapt to a changing world. A strong education system is vital for individual growth and societal progress.",
       "price": "$49.95"
@@ -34,7 +34,7 @@
       "category": "Clothing",
       "category_bg": "bg-yellow-400",
       "card_bg": "#0052ff26",
-      "text_button_bg": "#8e44ad",
+      "text_button_bg": "#0052ff33",
       "text_color":"#0052FF",
       "description": "Good clothing encompasses attire that not only suits one's personal style but is also comfortable and appropriate for various occasions and weather conditions. Quality clothing not only enhances physical comfort but can also boost confidence and self-expression.",
       "price": "$79.99"
@@ -47,7 +47,7 @@
       "category": "Food",
       "category_bg": "bg-red-400",
       "card_bg": "#ff444a26",
-      "text_button_bg": "#f39c12",
+      "text_button_bg": "#f8714733",
       "text_color":"#FF444A",
       "description": "Good food signifies nutritionally rich and well-balanced meals that provide the body with essential nutrients, vitamins, and minerals. It not only satisfies hunger but also contributes to overall health, energy, and vitality. A diet composed of fresh, whole foods is essential for maintaining well-being.",
       "price": "$29.99"
@@ -60,7 +60,7 @@
       "category": "Food",
       "category_bg": "bg-blue-500",
       "card_bg": "#0052ff26",
-      "text_button_bg": "#27ae60",
+      "text_button_bg": "#0052ff33",
       "text_color":"#0052FF",
       "description": "Good food signifies nutritionally rich and well-balanced meals that provide the body with essential nutrients, vitamins, and minerals. It not only satisfies hunger but also contributes to overall health, energy, and vitality. A diet composed of fresh, whole foods is essential for maintaining well-being.",
       "price": "$39.95"
@@ -73,7 +73,7 @@
       "category": "Clothing",
       "category_bg": "bg-yellow-400",
       "card_bg": "#79c23f26",
-      "text_button_bg": "#d35400",
+      "text_button_bg": "#79c23f33",
       "text_color":"#79C23F",
       "description": "Good clothing encompasses attire that not only suits one's personal style but is also comfortable and appropriate for various occasions and weather conditions. Quality clothing not only enhances physical comfort but can also boost confidence and self-expression.",
       "price": "$129.99"
@@ -86,7 +86,7 @@
       "category": "Education",
       "category_bg": "bg-green-400",
       "card_bg": "#ff444a26",
-      "text_button_bg": "#16a085",
+      "text_button_bg": "#f8714733",
       "text_color":"#FF444A",
       "description": " Good education refers to the acquisition of knowledge, skills, and values that empower individuals to lead fulfilling lives, contribute to society, and pursue their aspirations. It goes beyond academics and includes personal development, critical thinking, and the ability to adapt to a changing world. A strong education system is vital for individual growth and societal progress.",
       "price": "$69.95"
@@ -99,7 +99,7 @@
       "category": "Health",
       "category_bg": "bg-red-400",
       "card_bg": "#0052ff26",
-      "text_button_bg": "#d9534f",
+      "text_button_bg": "#0052ff33",
       "text_color":"#0052FF",
       "description": "Good health refers to a state of physical, mental, and social well-being where an individual's body functions optimally, and they are free from illness or disease. It involves maintaining a balanced lifestyle, regular exercise, a nutritious diet, and emotional well-being to lead a fulfilling and active life",
       "price": "$199.99"
@@ -112,7 +112,7 @@
       "category": "Health",
       "category_bg": "bg-green-400",
       "card_bg": "#79c23f26",
-      "text_button_bg": "#2ecc71",
+      "text_button_bg": "#79c23f33",
       "text_color":"#79C23F",
       "description": "Good health refers to a state of physical, mental, and social well-being where an individual's body functions optimally, and they are free from illness or disease. It involves maintaining a balanced lifestyle, regular exercise, a nutritious diet, and emotional well-being to lead a fulfilling and active life",
       "price": "$149.99"
@@ -125,7 +125,7 @@
       "category": "Education",
       "category_bg": "bg-red-400",
       "card_bg": "#ff444a26",
-      "text_button_bg": "#8e44ad",
+      "text_button_bg": "#ff444a33",
       "text_color":"#FF444A",
       "description": " Good education refers to the acquisition of knowledge, skills, and values that empower individuals to lead fulfilling lives, contribute to society, and pursue their aspirations. It goes beyond academics and includes personal development, critical thinking, and the ability to adapt to a changing world. A strong education system is vital for individual growth and societal progress.",
       "price": "$79.95"
@@ -138,7 +138,7 @@
       "category": "Clothing",
       "category_bg": "bg-green-400",
       "card_bg": "#79c23f26",
-      "text_button_bg": "#16a085",
+      "text_button_bg": "#79c23f33",
       "text_color":"#79C23F",
       "description": "Good clothing encompasses attire that not only suits one's personal style but is also comfortable and appropriate for various occasions and weather conditions. Quality clothing not only enhances physical comfort but can also boost confidence and self-expression.",
       "price": "$59.99"
@@ -151,7 +151,7 @@
       "category": "Food",
       "category_bg": "bg-yellow-400",
       "card_bg": "#ff444a26",
-      "text_button_bg": "#f39c12",
+      "text_button_bg": "#ff444a33",
       "text_color":"#FF444A",
       "description": "Good food signifies nutritionally rich and well-balanced meals that provide the body with essential nutrients, vitamins, and minerals. It not only satisfies hunger but also contributes to overall health, energy, and vitality. A diet composed of fresh, whole foods is essential for maintaining well-being.",
       "price": "$34.99"

@@ -44,8 +44,8 @@ const bgcolor = `${donation.card_bg}`;
                                  <div key={money.id} >
                                      <div style={{ backgroundColor: bgcolor }} className="items-center mt-6 flex ">
                                    <figure><img src={money.picture} alt="Shoes" /></figure>
-                                   <div className="card-body">
-                                    <h2 style={{color:money.text_color }}>{money.category}</h2>
+                                   <div className="pl-5">
+                                    <button style={{color:money.text_color,backgroundColor:money.text_button_bg }} className="py-1 px-1">{money.category}</button>
                                    <p>{money.title}</p>
                                    <p style={{color:money.text_color}}>{money.price}</p>
                                     <div className="card-actions justify-start">
@@ -60,8 +60,8 @@ const bgcolor = `${donation.card_bg}`;
                                 <div key={money.id} >
                                     <div style={{backgroundColor:money.card_bg}} className= "items-center mt-6 flex ">
                                   <figure><img src={money.picture} alt="Shoes" /></figure>
-                                  <div className="card-body">
-                                   <h2 style={{color:money.text_color }} >{money.category}</h2>
+                                  <div className="pl-5">
+                                  <button style={{color:money.text_color,backgroundColor:money.text_button_bg }} className="flex justify-start rounded-md py-1 px-1">{money.category}</button>
                                   <p>{money.title}</p>
                                   <p style={{color:money.text_color}}>{money.price}</p>
                                    <div className="card-actions justify-start">
