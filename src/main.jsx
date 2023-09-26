@@ -22,7 +22,7 @@ const router = createBrowserRouter([
       {
         path:'/',
         element:<Home></Home>,
-        loader: () => fetch('/cardData.json')
+        loader: () => fetch('cardData.json')
 
       },
       {
@@ -32,7 +32,7 @@ const router = createBrowserRouter([
       {
         path:'/details/:id',
         element:<Details></Details>,
-        loader: () => fetch('/cardData.json')
+        loader: () => fetch('cardData.json')
       },
       {
         path:'/statistics',
