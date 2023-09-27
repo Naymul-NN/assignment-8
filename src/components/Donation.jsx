@@ -19,7 +19,7 @@ const Donation = () => {
             setDonation(donationMony);
 
         }else{
-            setNofound('no data yet')
+            setNofound('no donation yet')
         }
         
     },[])
@@ -27,13 +27,13 @@ console.log(donation)
 const handleRemove = () =>{
      localStorage.clear()
      setDonation([])
-     setNofound('no data yet');
+     setNofound('no donation yet');
 }
 
 const bgcolor = `${donation.card_bg}`;
 
     return (
-            <div>{noFound ? <p className="text-center pt-64">{noFound}</p> : 
+            <div>{noFound ? <p className="text-center text-3xl font-bold text-red-500 pt-64">{noFound}</p> : 
             <div>
                 { donation.length > 0 && <button onClick={handleRemove} className="px-5 bg-green-300 block mx-auto">Delet all donation</button>}
                 <div>
